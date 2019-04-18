@@ -1,5 +1,5 @@
 title: Hoja de vida Carlos Poveda
-baseurl: "/resume/"
+baseurl: "/"
 exclude:
   - README.md
   - LICENSE

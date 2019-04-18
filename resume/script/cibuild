@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+echo "Building Jekyll site"
+
+bundle exec jekyll build
+
+if test -e "../resume.html";then
+  echo "It smokes!"
+else
+  echo "Build Spanish version failed"
+  exit 1
+fi
