@@ -6,7 +6,7 @@ echo "Building Jekyll site"
 
 bundle exec jekyll build
 
-if test -e "../index.html";then
+if test -e "../resume.html";then
   echo "It smokes!"
 else
   echo "Build Spanish version failed"
