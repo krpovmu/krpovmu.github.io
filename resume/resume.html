@@ -40,7 +40,7 @@ permalink: /resume.html
       
       <section id="education">
         <div class="section-title">
-          Education
+          Educación
         </div>
         <div class="section-content">
           {% for edu in site.data.resume.education %}
@@ -61,7 +61,7 @@ permalink: /resume.html
 
       <section id="skills">
         <div class="section-title">
-          Skills
+          Habilidades
         </div>
         <div class="section-content">
           {% for skill in site.data.resume.skills %}
@@ -79,7 +79,7 @@ permalink: /resume.html
 
       <section id="experience">
         <div class="section-title">
-          Experience
+          Experiencia
         </div>
         <div class="section-content">
           {% for exp in site.data.resume.experience %}
@@ -93,6 +93,9 @@ permalink: /resume.html
             <div class="block-content">
               {{ exp.description }}
             </div>
+            <div class="block-content-title">
+              {{ exp.people_in_charge }}
+            </div>
           </div>
           {% endfor %}
         </div>
@@ -100,7 +103,7 @@ permalink: /resume.html
 
       <section id="projects">
         <div class="section-title">
-          Projects
+          Proyectos
         </div>
         <div class="section-content">
           {% for project in site.data.resume.projects %}
@@ -109,10 +112,13 @@ permalink: /resume.html
               {{ project.name }}
             </div>
             <div class="block-subtitle">
-              {{ project.contribution }}
+	      {{ project.contribution }} | {{ project.duration }}
             </div>
             <div class="block-content">
               {{ project.description }}
+            </div>
+            <div class="block-content-title">
+              {{ project.tecnologies }}
             </div>
           </div>
           {% endfor %}
@@ -121,7 +127,7 @@ permalink: /resume.html
 
       <section id="languages">
         <div class="section-title">
-          Languages
+          Idiomas
         </div>
         <div class="section-content section-flex">
           {% for language in site.data.resume.languages %}
@@ -136,6 +142,30 @@ permalink: /resume.html
           {% endfor %}
         </div>
       </section>
+
+      <section id="references">
+        <div class="section-title">
+          Referencias
+        </div>
+         <div class="section-content">
+          {% for reference in site.data.resume.references %}
+          <div class="block">
+            <div class="block-title">
+              {{ reference.name }}
+            </div>
+            <div class="block-subtitle">
+              {{ reference.title }} | {{ reference.company }}
+            </div>
+            <div class="block-content">
+              <i class="fa {{ reference.icon }} aria-hidden="true></i> {{ reference.text }}
+            </div>
+            <div class="block-comment">
+              {{ reference.comment }}
+            </div>
+          </div>
+          {% endfor %}
+          </div>
+      <section>
 
     </div>
     <footer>

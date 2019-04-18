@@ -38,28 +38,83 @@ skills:
     items: SVN, Mercurial y GIT.
   - title: Bases de datos
     items: Microsoft SQL Server 2000/2005, Transact-SQL, SQL Profiler, MySQL Server, MariaDB Server, PostgreSQL Server, Oracle 10, MongoDB, Redis.
+  - title: Tecnologías Cloud
+    items: Microsoft Azure 2 años, Amazon web services 3 años, Century Link Cloud 4 años.
+  - title: 
 experience:
-  - title: Job Title 1
-    duration: Apr 2016 - Now
-    company: Your 1st, Inc.
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - title: Job Title 2
-    duration: Apr 2013 - Mar 2016
-    company: Your 2nd, Inc.
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  - title: Job Title 3
-    duration: Dec 2011 - Mar 2012
-    company: Your 3rd Co, Ltd.
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - title: Coordinador Fullstack
+    duration: Agosto 2018 - Presente
+    company: ElTiempo Casa Editorial
+    description: Responsable de implementación y administración de proyectos de ElTiempo principalmente en lenguajes como PHP, NodeJs, Python y Java, así como liderar los recursos que se encargan tanto del desarrollo como de la administracion de los proyectos principalmente en metodologías basadas en SCRUM y programación extrema (XP). Administración y seguimiento de proyectos con proovedores externos apoyo en la definición de requerimientos y seguimiento en las implementaciones. 
+    people_in_charge: 6 Personas a cargo 
+  - title: Lider Fullstack
+    duration: Junio 2015 - Agosto 2018
+    company: ElTiempo Casa Editorial
+    description: Responsable de implementación y administración de proyectos de ElTiempo principalmente en lenguajes como PHP, NodeJs, Python y Java, así como liderar los recursos que se encargan tanto del desarrollo como de la administracion de los proyectos principalmente en metodologías basadas en SCRUM y programación extrema (XP). Administración y seguimiento de proyectos con proovedores externos apoyo en la definición de requerimientos y seguimiento en las implementaciones. 
+    people_in_charge: 3 Personas a cargo 
+  - title: Senior Fullstack Developer
+    duration: Enero 2012 - Junio 2015
+    company: ElTiempo Casa Editorial
+    description: Responsable de implementación y mantenimiento de projectos de ElTiempo principalmente en lenguajes como PHP, NodeJs, Python y Java, así como administración y control de herramientas de infraestructura principalmente Amazon Web Services y Azure, experiencia en desarrollos sobre bases de datos MySQL, MsSQL y Oracle asi como manejo de sistemas de control de versiones como GIT y SVN, todo administrado sobre el marco de metodologias agiles principalmente en SCRUM.
+  - title: Developer
+    duration: Julio 2008 - Enero 2012
+    company: Publicar Publicidad Multimedia SAS
+    description: Responsable de desarrollo de aplicaciones en JAVA principalmente de las aplicaciones de armada de directorios y plan de publicación, así como los desarrollos en Informix e integración de todos estos procesos a la cadena de valor de la compañia, bastante manejo de herramientas de control de version con SVN asi como herramientas de integracion y pruebas unitarias con MAVEN y Jmeter todo sobre metodologias de desarrollo basadas en programación extrema (XP).
+  - title: Fullstack Developer
+    duration: Marzo 2007 - Diciembre 2007
+    company: Skina Technologies
+    description: Responsable de desarrollos a medida especialmente en PHP y Java así como diseño e implementación de pruebas de carga con Jmeter y pruebas de penetración y de seguridad sobre portales, además de matener la infraestructura en EC2.
 projects:
-  - name: Project Name 1
-    description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    contribution: Contributor.
-  - name: Project Name 2
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    contribution: Creator and maintainer.
+  - name: Segmentador de Noticias
+    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
+    duration: Diciembre 2018 - Presente
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+  - name: Flusher de Integración con Akamai
+    description: Es un servicio que permite a todos los CMS de Xalok hacer un flush de los contenidos de cache que se almacenan en la configuración de Akamai
+    duration: Agosto 2018 - Septiembre 2018
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP,fast Purge, MYSQL, virtualenv, Flask, connection), vim, nginx, centos, azure.
+  - name: Xalok CMS Implementación para el portal de ElTiempo.com
+    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
+    duration: Diciembre 2018 - Presente
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+  - name: Xalok CMS Implementación para el portal de Portafolio.co
+    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
+    duration: Diciembre 2018 - Presente
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+  - name: Xalok CMS Implementación para el portal de Futbolred.com
+    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
+    duration: Diciembre 2018 - Presente
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+  - name: Xalok CMS Implementación para el portal de Motor.com.co
+    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
+    duration: Diciembre 2018 - Presente
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+  - name: Xalok CMS Implementación para el portal de Abcdelbebe.com
+    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
+    duration: Diciembre 2018 - Presente
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
 languages:
   - name: Inglés
-    proficiency: Dominio del trabajo
+    proficiency: Intermedio para escuchar y hablar, Avanzado para escritura y lectura.
   - name: Español
     proficiency: Nativo
+references:
+  - name: Aldemar Bernal Prieto
+    title: Jefe de Tecnología
+    company: Seguros Bolivar
+    icon: fa-phone-square
+    text: 301-5752453
+    comment: Es un profesional con alta disposición y compromiso fue muy importante en la implementación de los cambios de transformación de los procesos digitales.
+  - name: Miguel Castro Castro
+    title: Jefe de Tecnología
+    company: HomeCenter
+    icon: fa-phone-square
+    text: 310-4781104
+    comment: Es un persona con altos valores y compromiso siempre esta atento en que puede ayudar y colaborar para que los proyectos salgan de la mejor manera además de tener alta disposición y habilidad para la tecnología y su implementación.
