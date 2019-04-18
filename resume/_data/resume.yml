@@ -70,36 +70,86 @@ projects:
     duration: Diciembre 2018 - Presente
     contribution: Lider de Proyecto
     tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+  - name: Real Time Indexing
+    description: Es un servicio que permite a todos los CMS de Xalok hacer una integración con el servicio de google que permite hacer flush sobre el contenido cada vez que este es editado.
+    duration: Septiembre 2018 - Diciembre 2018
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP,fast Purge, MYSQL, virtualenv, Flask, connection), vim, nginx, centos, azure.
   - name: Flusher de Integración con Akamai
     description: Es un servicio que permite a todos los CMS de Xalok hacer un flush de los contenidos de cache que se almacenan en la configuración de Akamai
     duration: Agosto 2018 - Septiembre 2018
     contribution: Lider de Proyecto
     tecnologies: Python3.6 (PIP,fast Purge, MYSQL, virtualenv, Flask, connection), vim, nginx, centos, azure.
+  - name: Componente de integración Xalok - app ElTiempo.com
+    description: Permite integrar el API de Xalok con la app de ElTiempo para extraer los conetenidos que se muestran en el portal.
+    duration: Febrero 2018 - Septiembre 2018
+    contribution: Lider de Proyecto
+    tecnologies: Nodejs, vim, nginx, centos, azure.
   - name: Xalok CMS Implementación para el portal de ElTiempo.com
-    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
-    duration: Diciembre 2018 - Presente
+    description: Implementación de Xalok para el portal de ElTiempo.com.co tanto para la parte del front como para el cms.
+    duration: Junio 2017 Febrero 2018
     contribution: Lider de Proyecto
-    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+    tecnologies: PHP laravel, nodejs, gulp, vim, nginx, centos, azure.
+  - name: Administrador de contenidos ElasticSearch
+    description: Esta herramienta permite a los editores y administradores d Xalok cambiar o eliminar los contenidos en Xalok cms y todos los indices de cualquier otra plataforma que maneje Elasticsearch.
+    duration: Marzo 2017 - Octubre 2017
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP, Elasticsearch, Django, virtualenv), vim, nginx, centos, azure.
   - name: Xalok CMS Implementación para el portal de Portafolio.co
-    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
-    duration: Diciembre 2018 - Presente
+    description: Implementación de Xalok para el portal de Portafolio.com.co tanto para la parte del front como para el cms.
+    duration: Enero 2017 - Junio 2017
     contribution: Lider de Proyecto
-    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+    tecnologies: PHP laravel, nodejs, gulp, vim, nginx, centos, azure.
   - name: Xalok CMS Implementación para el portal de Futbolred.com
-    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
-    duration: Diciembre 2018 - Presente
-    contribution: Lider de Proyecto
-    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+    description: Implementación de Xalok para el portal de Futbolred.com.co tanto para la parte del front como para el cms.
+    duration: Octubre 2016 - Febrero 2017
+    contribution: Desarrollador
+    tecnologies: PHP laravel, nodejs, gulp, vim, nginx, centos, azure.
   - name: Xalok CMS Implementación para el portal de Motor.com.co
-    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
-    duration: Diciembre 2018 - Presente
-    contribution: Lider de Proyecto
-    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+    description: Implementación de Xalok para el portal de Motor.com.co tanto para la parte del front como para el cms.
+    duration: Mayo 2016 - Octubre 2016
+    contribution: Desarrollador
+    tecnologies: PHP laravel, nodejs, gulp, vim, nginx, centos, azure.
   - name: Xalok CMS Implementación para el portal de Abcdelbebe.com
-    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
-    duration: Diciembre 2018 - Presente
+    description: Implementación de Xalok para el portal de Abcdelbebe.com tanto para la parte del front como para el cms.
+    duration: Enero 2016 - Junio 2016
+    contribution: Desarrollador
+    tecnologies: PHP laravel, nodejs, gulp, vim, nginx, centos, azure.
+  - name: Lider de operaciones digitales
+    description: Desarrollo de los ajustes y los nuevos requerimientos sobre los portales de contenido principalemente ElTiempo, Portafolio y Futbolred. 
+    duration: Julio 2015 - Enero 2016
+    contribution: Lider de operaciones
+    tecnologies: php con zendframework, vim, nginx, centos, azure.
+  - name: Componente de migración portales contenido a xalok
+    description: Este Software permite hacer migración de los contenidos de las siguientes plataformas, CMS in-house ElTiempo componentes en Zendframework, Drupal, Polopoly a la plataforma de Xalok por medio de la construcción de XML e inyectando contenidos directamente en la base de datos de el portal que se piensa migrar.
+    duration: Marzo 2015 - Julio 2015
     contribution: Lider de Proyecto
-    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+    tecnologies: Python3, vim.
+  - name: Rediseño de ElTiempo.com zendframework
+    description: Reimplementación de ElTiempo.com en Zendframework para funcionar con el CMS in-house.
+    duration: Junio 2014 - Enero 2015
+    contribution: Desarrollador
+    tecnologies: php con zendframework, vim, nginx, centos, azure.
+  - name: Rediseño de Futbolred.com zendframework
+    description: Reimplementación de ElTiempo.com en Zendframework para funcionar con el CMS in-house.
+    duration: Enero 2013 - Junio 2014
+    contribution: Desarrollador
+    tecnologies: php con zendframework, vim, nginx, centos, azure.
+  - name: Implementación de Polopoly CMS para Diarioadn.co
+    description: Implementación de Polopoly como CMS para diarioadn.co
+    duration: Julio 2012 - Enero 2013
+    contribution: Desarrollador
+    tecnologies: Java1.6, Eclipse, vim, nginx, centos, azure.
+  - name: Componente de migración usuarios drupal abcdelbebe a Oracle.
+    description: Este Software migra todos los usuario de la plataforma drupal a Oracle para que sean consumidos por el sistema de autenticación CAS.
+    duration: Julio 2012 - Agosto 2012
+    contribution: Desarrollador
+    tecnologies: Python3, vim.
+  - name: Apoyo al área de operaciones ElTiempo
+    description: Desarrollo de los ajustes y los nuevos requerimientos sobre los portales de contenido principalemente ElTiempo, Portafolio y Futbolred. 
+    duration: Enero 2012 - Julio 2012
+    contribution: Desarrollador
+    tecnologies: php con zendframework, vim, nginx, centos, azure.
 languages:
   - name: Inglés
     proficiency: Intermedio para escuchar y hablar, Avanzado para escritura y lectura.
