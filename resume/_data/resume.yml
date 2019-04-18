@@ -16,18 +16,28 @@ education:
   - university: Universidad Francisco Jose de Caldas
     duration: Junio 2002 - Diciembre 2007
     location: Bogotá, Colombia
-    major: Ingeniero de Sistemas, soy un Ingeniero con capacidad para trabajar exitosamente en equipos multidisciplinarios, interdisciplinarios y/o transdisciplinarios de investigación y/o desarrollo de empresa en Ingeniería de Sistemas; mi formación es cimentada en una sólida sinergia entre las disciplinas de ciencias de la computación, ingeniería de software y las áreas de énfasis elegidas de las ofrecidas por el diseño curricular.
+    major: Ingeniero de Sistemas, soy un Ingeniero con capacidad para trabajar exitosamente en equipos multidisciplinarios, interdisciplinarios y/o transdisciplinarios de investigación y/o desarrollo de empresa en Ingeniería de Sistemas; mi formación es cimentada en una sólida sinergia entre las disciplinas de ciencias de la computación y ingeniería de software.
   - university: Pontificia Universidad Javeriana
     duration: Junio 2011 - Octubre 2012
     location: Bogotá, Colombia
     major: Arquitecto de Software, Soy un profesional con habilidades, conocimientos, técnicas en lenguajes y herramientas que permiten abordar el desarrollo e integración de software y su alineación con los procesos del negocio, con altos niveles de calidad y tomando como base la arquitectura empresarial.
 skills:
-  - title: Skill Group 1
-    items: Lorem, Ipsum, Dolor, Sit, Amet
-  - title: Skill Group 2
-    items: Consectetur, Adipiscing, Elit
-  - title: Skill Group 3
-    items: Sed do, Eiusmod, Tempor, Incididunt
+  - title: Lenguajes de Programación Scripting
+    items: PHP 3 años de experiencia, Python 2 años de experiencia, NodeJs 2 años de experiencia, Java/Kotlin 6 meses de experiencia, Bash y Shell scripting 5 años de experiencia.
+  - title: Lenguajes de Programación Compilados
+    items: C/C++ 1 año de experiencia, Golang 6 meses de experiencia.
+  - title: Integracion Continua y Devops
+    items: Ansible, Jenkins, Gitlab, Docker, Kubernetics, Vagrant, Jmeter
+  - title: Frameworks de desarrollo Web
+    items: ZendFramework de php, Laravel de php, Yii de php, Django de Python, Flask de Python.
+  - title: Web Development
+    items: HTML5 2 años de experiencia, CSS3/SASS 1 año de experiencia, JavaScript/CoffeeScript/jQuery 2 años de experiencia
+  - title: Metodologías de desarrollo
+    items: He trabajado con las metodologías ágiles programación extrema (XP) y  Scrum.
+  - title: Sistemas de control de versiones
+    items: SVN, Mercurial y GIT.
+  - title: Bases de datos
+    items: Microsoft SQL Server 2000/2005, Transact-SQL, SQL Profiler, MySQL Server, MariaDB Server, PostgreSQL Server, Oracle 10, MongoDB, Redis.
 experience:
   - title: Job Title 1
     duration: Apr 2016 - Now
@@ -49,7 +59,7 @@ projects:
     description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     contribution: Creator and maintainer.
 languages:
-  - name: English
-    proficiency: Work proficiency
+  - name: Inglés
+    proficiency: Dominio del trabajo
   - name: Español
-    proficiency: Native
+    proficiency: Nativo
