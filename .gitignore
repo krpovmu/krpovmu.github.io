@@ -1,1 +1,4 @@
 *.swp
+*.lock
+resume/_site/
+resume/script/
