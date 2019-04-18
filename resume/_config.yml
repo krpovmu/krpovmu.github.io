@@ -1,8 +1,7 @@
-title: Hoja de vida
+title: Hoja de vida Carlos Poveda
 baseurl: "/resume/"
 exclude:
   - README.md
-  - "README_zh-CN.md"
   - LICENSE
   - Gemfile
   - Gemfile.lock
