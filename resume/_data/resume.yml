@@ -1,26 +1,26 @@
 title: Hoja de vida
-name: Carlos Andres Poveda Muñoz
+name: Carlos Andrés Poveda Muñoz
 jobtitle: Arquitecto de Software
 contact:
   - icon: fa-envelope
     text: krpovmu@gmail.com
   - icon: fa-phone-square
     text: 301-7200338
-  - icon: fa-globe
-    text: https://krpovmu.github.io
+  - icon: fa-linkedin
+    text: Carlos Poveda
     link: https://www.linkedin.com/in/carlos-andres-poveda-mu%C3%B1oz-a19405139/
   - icon: fa-github
     text: krpovmu
     link: https://github.com/krpovmu/resume
 education:
   - university: Universidad Francisco Jose de Caldas
-    duration: Jul 2011 - Dec 2012
-    location: Consectetur adipiscing elit
-    major: Lorem ipsum dolor sit amet
+    duration: Junio 2002 - Diciembre 2007
+    location: Bogotá, Colombia
+    major: Ingeniero de Sistemas, soy un Ingeniero con capacidad para trabajar exitosamente en equipos multidisciplinarios, interdisciplinarios y/o transdisciplinarios de investigación y/o desarrollo de empresa en Ingeniería de Sistemas; mi formación es cimentada en una sólida sinergia entre las disciplinas de ciencias de la computación, ingeniería de software y las áreas de énfasis elegidas de las ofrecidas por el diseño curricular.
   - university: Pontificia Universidad Javeriana
-    duration: Aug 2007 - Jun 2011
-    location: Ut enim ad minim veniam
-    major: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+    duration: Junio 2011 - Octubre 2012
+    location: Bogotá, Colombia
+    major: Arquitecto de Software, Soy un profesional con habilidades, conocimientos, técnicas en lenguajes y herramientas que permiten abordar el desarrollo e integración de software y su alineación con los procesos del negocio, con altos niveles de calidad y tomando como base la arquitectura empresarial.
 skills:
   - title: Skill Group 1
     items: Lorem, Ipsum, Dolor, Sit, Amet
