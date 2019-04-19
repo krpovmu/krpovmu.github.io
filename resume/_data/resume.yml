@@ -74,6 +74,11 @@ projects:
     duration: Septiembre 2018 - Diciembre 2018
     contribution: Lider de Proyecto
     tecnologies: Python3.6 (PIP,fast Purge, MYSQL, virtualenv, Flask, connection), vim, nginx, centos, azure.
+  - name: RSS audio noticias de audio para google now
+    description: Es un administrador que permite subir y escuchar a todos las noticias de audio para google now
+    duration: Agosto 2018 - Octubre 2018
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP,fast Purge, MYSQL, virtualenv, Flask, connection), vim, nginx, centos, azure.
   - name: Flusher de Integración con Akamai
     description: Es un servicio que permite a todos los CMS de Xalok hacer un flush de los contenidos de cache que se almacenan en la configuración de Akamai
     duration: Agosto 2018 - Septiembre 2018
