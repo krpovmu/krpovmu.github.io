@@ -134,6 +134,11 @@ projects:
     duration: Junio 2014 - Enero 2015
     contribution: Desarrollador
     tecnologies: php con zendframework, vim, nginx, centos, azure.
+  - name: Esther Launcher
+    description: Este Software permite hacer deploy con el esther CLI pero de una forma web y controlando permisos y proyectos
+    duration: Marzo 2013 - Mayo 2013
+    contribution: Lider de Proyecto, Desarrollador
+    tecnologies: Python3, PHP Zendframework, vim.
   - name: Rediseño de Futbolred.com zendframework
     description: Reimplementación de ElTiempo.com en Zendframework para funcionar con el CMS in-house.
     duration: Enero 2013 - Junio 2014
@@ -148,6 +153,11 @@ projects:
     description: Este Software migra todos los usuario de la plataforma drupal a Oracle para que sean consumidos por el sistema de autenticación CAS.
     duration: Julio 2012 - Agosto 2012
     contribution: Desarrollador
+    tecnologies: Python3, vim.
+  - name: Esther CLI
+    description: Este Software permite descargar los proyectos de SVN organizarlos y enviarlos a los diferentes servidores en ambientes productivos
+    duration: Julio 2012 - Agosto 2012
+    contribution: Lider de Proyecto, Desarrollador
     tecnologies: Python3, vim.
   - name: Apoyo al área de operaciones ElTiempo
     description: Desarrollo de los ajustes y los nuevos requerimientos sobre los portales de contenido principalemente ElTiempo, Portafolio y Futbolred. 
