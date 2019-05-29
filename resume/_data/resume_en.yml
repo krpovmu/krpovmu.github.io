@@ -1,0 +1,184 @@
+title: Curriculum Carlos Poveda
+name: Carlos Andrés Poveda Muñoz
+jobtitle: Software Architect
+contact:
+  - icon: fa-envelope
+    text: krpovmu@gmail.com
+  - icon: fa-phone-square
+    text: 301-7200338
+  - icon: fa-linkedin
+    text: Carlos Poveda
+    link: https://www.linkedin.com/in/carlos-andres-poveda-mu%C3%B1oz-a19405139/
+  - icon: fa-github
+    text: krpovmu
+    link: https://github.com/krpovmu/resume
+education:
+  - university: Universidad Francisco Jose de Caldas
+    duration: June 2002 - December 2007
+    location: Bogotá, Colombia
+    major: Computer Engineer, I'm a person with workgroup skills and I can work with multidisciplinary and interdisciplinary teams; my studies were strong in areas like computer science and software engineering    
+  - university: Pontificia Universidad Javeriana
+    duration: June 2011 - October 2012
+    location: Bogotá, Colombia
+    major: Software Architect, I'm a person with skills, knowlege and techniques in language and tools that let me solve and develop software can be integrated and aligned with the bussines process, with high standard levels and based on the business architecture. 
+skills:
+  - title: Programming Scripting Languages
+    items: PHP 5 years of experience, Python 2 years of experience, NodeJs 2 years of experience, Java/Kotlin 2 years of experience, Bash y Shell scripting 5 years of experience.
+  - title: Programming Compiled Languages 
+    items: C/C++ 1 year of experience, Golang 6 months of experience.
+  - title: Continous Integration
+    items: Ansible, Jenkins, Gitlab, Docker, Kubernetics, Vagrant, Jmeter
+  - title: Frameworks
+    items: ZendFramework, Laravel, Yii, Django, Flask.
+  - title: Web Development
+    items: HTML5 2 years of experience, CSS3/SASS 1 year of experience, JavaScript/CoffeeScript/jQuery 2 years of experience
+  - title: Development Metodologies
+    items: SCRUM and Xp
+  - title: Version Control Systems
+    items: SVN, Mercurial y GIT.
+  - title: Databases
+    items: Microsoft SQL Server 2000/2005, Transact-SQL, SQL Profiler, MySQL Server, MariaDB Server, PostgreSQL Server, Oracle 10, MongoDB, Redis.
+  - title: Cloud Technologies
+    items: Microsoft Azure 2 years, Amazon web services 3 years, Century Link Cloud 4 years.
+experience:
+  - title: Coordinador Fullstack
+    duration: Agosto 2018 - Presente
+    company: ElTiempo Casa Editorial
+    description: Responsable de implementación y administración de proyectos de ElTiempo principalmente en lenguajes como PHP, NodeJs, Python y Java, así como liderar los recursos que se encargan tanto del desarrollo como de la administracion de los proyectos principalmente en metodologías basadas en SCRUM y programación extrema (XP). Administración y seguimiento de proyectos con proovedores externos apoyo en la definición de requerimientos y seguimiento en las implementaciones. 
+    people_in_charge: 6 Personas a cargo 
+  - title: Lider Fullstack
+    duration: Junio 2015 - Agosto 2018
+    company: ElTiempo Casa Editorial
+    description: Responsable de implementación y administración de proyectos de ElTiempo principalmente en lenguajes como PHP, NodeJs, Python y Java, así como liderar los recursos que se encargan tanto del desarrollo como de la administracion de los proyectos principalmente en metodologías basadas en SCRUM y programación extrema (XP). Administración y seguimiento de proyectos con proovedores externos apoyo en la definición de requerimientos y seguimiento en las implementaciones. 
+    people_in_charge: 3 Personas a cargo 
+  - title: Senior Fullstack Developer
+    duration: Enero 2012 - Junio 2015
+    company: ElTiempo Casa Editorial
+    description: Responsable de implementación y mantenimiento de projectos de ElTiempo principalmente en lenguajes como PHP, NodeJs, Python y Java, así como administración y control de herramientas de infraestructura principalmente Amazon Web Services y Azure, experiencia en desarrollos sobre bases de datos MySQL, MsSQL y Oracle asi como manejo de sistemas de control de versiones como GIT y SVN, todo administrado sobre el marco de metodologias agiles principalmente en SCRUM.
+  - title: Developer
+    duration: Julio 2008 - Enero 2012
+    company: Publicar Publicidad Multimedia SAS
+    description: Responsable de desarrollo de aplicaciones en JAVA principalmente de las aplicaciones de armada de directorios y plan de publicación, así como los desarrollos en Informix e integración de todos estos procesos a la cadena de valor de la compañia, bastante manejo de herramientas de control de version con SVN asi como herramientas de integracion y pruebas unitarias con MAVEN y Jmeter todo sobre metodologias de desarrollo basadas en programación extrema (XP).
+  - title: Fullstack Developer
+    duration: Marzo 2007 - Diciembre 2007
+    company: Skina Technologies
+    description: Responsable de desarrollos a medida especialmente en PHP y Java así como diseño e implementación de pruebas de carga con Jmeter y pruebas de penetración y de seguridad sobre portales, además de matener la infraestructura en EC2.
+projects:
+  - name: Segmentador de Noticias
+    description: Con los textos que los periodistas escriben se debe poder crear un dashboard para evaluar las noticias en las siguientes dimensiones, violencia, mindset y voz, todos estos análisis se deben basar en en los resultados de sentimientos que arroja la plataforma de google GCP Cloud Natural Language API.
+    duration: Diciembre 2018 - Presente
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP, google.cloud, pandas, request, nltk, Redis, MYSQL, virtualenv, Flask, d3.js), vim, nginx, centos, azure.
+  - name: Real Time Indexing
+    description: Es un servicio que permite a todos los CMS de Xalok hacer una integración con el servicio de google que permite hacer flush sobre el contenido cada vez que este es editado.
+    duration: Septiembre 2018 - Diciembre 2018
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP,fast Purge, MYSQL, virtualenv, Flask, connection), vim, nginx, centos, azure.
+  - name: RSS audio noticias de audio para google now
+    description: Es un administrador que permite subir y escuchar a todos las noticias de audio para google now
+    duration: Agosto 2018 - Octubre 2018
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP,fast Purge, MYSQL, virtualenv, Flask, connection), vim, nginx, centos, azure.
+  - name: Flusher de Integración con Akamai
+    description: Es un servicio que permite a todos los CMS de Xalok hacer un flush de los contenidos de cache que se almacenan en la configuración de Akamai
+    duration: Agosto 2018 - Septiembre 2018
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP,fast Purge, MYSQL, virtualenv, Flask, connection), vim, nginx, centos, azure.
+  - name: Componente de integración Xalok - app ElTiempo.com
+    description: Permite integrar el API de Xalok con la app de ElTiempo para extraer los conetenidos que se muestran en el portal.
+    duration: Febrero 2018 - Septiembre 2018
+    contribution: Lider de Proyecto
+    tecnologies: Nodejs, vim, nginx, centos, azure.
+  - name: Xalok CMS Implementación para el portal de ElTiempo.com
+    description: Implementación de Xalok para el portal de ElTiempo.com.co tanto para la parte del front como para el cms.
+    duration: Junio 2017 Febrero 2018
+    contribution: Lider de Proyecto
+    tecnologies: PHP laravel, nodejs, gulp, vim, nginx, centos, azure.
+  - name: Administrador de contenidos ElasticSearch
+    description: Esta herramienta permite a los editores y administradores d Xalok cambiar o eliminar los contenidos en Xalok cms y todos los indices de cualquier otra plataforma que maneje Elasticsearch.
+    duration: Marzo 2017 - Octubre 2017
+    contribution: Lider de Proyecto
+    tecnologies: Python3.6 (PIP, Elasticsearch, Django, virtualenv), vim, nginx, centos, azure.
+  - name: Xalok CMS Implementación para el portal de Portafolio.co
+    description: Implementación de Xalok para el portal de Portafolio.com.co tanto para la parte del front como para el cms.
+    duration: Enero 2017 - Junio 2017
+    contribution: Lider de Proyecto
+    tecnologies: PHP laravel, nodejs, gulp, vim, nginx, centos, azure.
+  - name: Xalok CMS Implementación para el portal de Futbolred.com
+    description: Implementación de Xalok para el portal de Futbolred.com.co tanto para la parte del front como para el cms.
+    duration: Octubre 2016 - Febrero 2017
+    contribution: Desarrollador
+    tecnologies: PHP laravel, nodejs, gulp, vim, nginx, centos, azure.
+  - name: Xalok CMS Implementación para el portal de Motor.com.co
+    description: Implementación de Xalok para el portal de Motor.com.co tanto para la parte del front como para el cms.
+    duration: Mayo 2016 - Octubre 2016
+    contribution: Desarrollador
+    tecnologies: PHP laravel, nodejs, gulp, vim, nginx, centos, azure.
+  - name: Xalok CMS Implementación para el portal de Abcdelbebe.com
+    description: Implementación de Xalok para el portal de Abcdelbebe.com tanto para la parte del front como para el cms.
+    duration: Enero 2016 - Junio 2016
+    contribution: Desarrollador
+    tecnologies: PHP laravel, nodejs, gulp, vim, nginx, centos, azure.
+  - name: Lider de operaciones digitales
+    description: Desarrollo de los ajustes y los nuevos requerimientos sobre los portales de contenido principalemente ElTiempo, Portafolio y Futbolred. 
+    duration: Julio 2015 - Enero 2016
+    contribution: Lider de operaciones
+    tecnologies: php con zendframework, vim, nginx, centos, azure.
+  - name: Componente de migración portales contenido a xalok
+    description: Este Software permite hacer migración de los contenidos de las siguientes plataformas, CMS in-house ElTiempo componentes en Zendframework, Drupal, Polopoly a la plataforma de Xalok por medio de la construcción de XML e inyectando contenidos directamente en la base de datos de el portal que se piensa migrar.
+    duration: Marzo 2015 - Julio 2015
+    contribution: Lider de Proyecto
+    tecnologies: Python3, vim.
+  - name: Rediseño de ElTiempo.com zendframework
+    description: Reimplementación de ElTiempo.com en Zendframework para funcionar con el CMS in-house.
+    duration: Junio 2014 - Enero 2015
+    contribution: Desarrollador
+    tecnologies: php con zendframework, vim, nginx, centos, azure.
+  - name: Esther Launcher
+    description: Este Software permite hacer deploy con el esther CLI pero de una forma web y controlando permisos y proyectos
+    duration: Marzo 2013 - Mayo 2013
+    contribution: Lider de Proyecto, Desarrollador
+    tecnologies: Python3, PHP Zendframework, vim.
+  - name: Rediseño de Futbolred.com zendframework
+    description: Reimplementación de ElTiempo.com en Zendframework para funcionar con el CMS in-house.
+    duration: Enero 2013 - Junio 2014
+    contribution: Desarrollador
+    tecnologies: php con zendframework, vim, nginx, centos, azure.
+  - name: Implementación de Polopoly CMS para Diarioadn.co
+    description: Implementación de Polopoly como CMS para diarioadn.co
+    duration: Julio 2012 - Enero 2013
+    contribution: Desarrollador
+    tecnologies: Java1.6, Eclipse, vim, nginx, centos, azure.
+  - name: Componente de migración usuarios drupal abcdelbebe a Oracle.
+    description: Este Software migra todos los usuario de la plataforma drupal a Oracle para que sean consumidos por el sistema de autenticación CAS.
+    duration: Julio 2012 - Agosto 2012
+    contribution: Desarrollador
+    tecnologies: Python3, vim.
+  - name: Esther CLI
+    description: Este Software permite descargar los proyectos de SVN organizarlos y enviarlos a los diferentes servidores en ambientes productivos
+    duration: Julio 2012 - Agosto 2012
+    contribution: Lider de Proyecto, Desarrollador
+    tecnologies: Python3, vim.
+  - name: Support operations area ElTiempo
+    description: Desarrollo de los ajustes y los nuevos requerimientos sobre los portales de contenido principalemente ElTiempo, Portafolio y Futbolred. 
+    duration: Enero 2012 - Julio 2012
+    contribution: Desarrollador
+    tecnologies: php con zendframework, vim, nginx, centos, azure.
+languages:
+  - name: Inglés
+    proficiency: Intermedio para escuchar y hablar, Avanzado para escritura y lectura en este momento me encuentro perfeccionandolo para presentar el IETLS.
+  - name: Español
+    proficiency: Nativo
+references:
+  - name: Aldemar Bernal Prieto
+    title: Jefe de Tecnología
+    company: Seguros Bolivar
+    icon: fa-phone-square
+    text: 301-5752453
+    comment: Es un profesional con alta disposición y compromiso fue muy importante en la implementación de los cambios de transformación de los procesos digitales.
+  - name: Miguel Castro Castro
+    title: Jefe de Tecnología
+    company: HomeCenter
+    icon: fa-phone-square
+    text: 310-4781104
+    comment: He's a person with high values and commitment, He's always ready for help everybody and give always the best for the proyects.
