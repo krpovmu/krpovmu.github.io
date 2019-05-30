@@ -7,9 +7,17 @@ echo "Building Jekyll site"
 bundle exec jekyll build
 
 if test -e "./_site/resume.html";then
-  echo "It smokes!"
+  echo "Funciona!"
   cp -rfv ./_site/resume.html ../index.html && cp -rfv ./_site/css/ ../
 else
   echo "Build Spanish version failed"
+  exit 1
+fi
+
+if test -e "./_site/resume_en.html";then
+  echo "It smokes!"
+  cp -rfv ./_site/resume_en.html ../index_en.html
+else
+  echo "Build English version failed"
   exit 1
 fi

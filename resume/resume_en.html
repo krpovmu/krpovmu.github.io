@@ -1,0 +1,175 @@
+---
+layout: null
+permalink: resume_en.html
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ site.data.resume_en.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/resume.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="name-wrapper">
+          <div id="fullname">
+            {{ site.data.resume_en.name }}
+          </div>
+          <div id="jobtitle">
+            {{ site.data.resume_en.jobtitle }}
+          </div>
+        </div>
+        <div id="contact">
+          {% for item in site.data.resume_en.contact %}
+          <div class="contact-item">
+            {% if item.link %}
+            <a href="{{ item.link }}">
+            {% endif %}
+            <i class="fa {{ item.icon }} aria-hidden="true></i> {{ item.text }}
+            {% if item.link %}
+            </a>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </header>
+      
+      <section id="education">
+        <div class="section-title">
+          Educación
+        </div>
+        <div class="section-content">
+          {% for edu in site.data.resume_en.education %}
+          <div class="block">
+            <div class="block-title">
+              {{ edu.university }}
+            </div>
+            <div class="block-subtitle">
+              {{ edu.duration }} | {{ edu.location }}
+            </div>
+            <div class="block-content">
+              {{ edu.major }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="section-title">
+          Habilidades
+        </div>
+        <div class="section-content">
+          {% for skill in site.data.resume_en.skills %}
+          <div class="block">
+            <div class="block-title">
+              {{ skill.title }}
+            </div>
+            <div class="block-content">
+              {{ skill.items }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="section-title">
+          Experiencia
+        </div>
+        <div class="section-content">
+          {% for exp in site.data.resume_en.experience %}
+          <div class="block">
+            <div class="block-title">
+              {{ exp.title }}
+            </div>
+            <div class="block-subtitle">
+              {{ exp.duration }} | {{ exp.company }}
+            </div>
+            <div class="block-content">
+              {{ exp.description }}
+            </div>
+            <div class="block-content-title">
+              {{ exp.people_in_charge }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-title">
+          Proyectos
+        </div>
+        <div class="section-content">
+          {% for project in site.data.resume_en.projects %}
+          <div class="block">
+            <div class="block-title">
+              {{ project.name }}
+            </div>
+            <div class="block-subtitle">
+	      {{ project.contribution }} | {{ project.duration }}
+            </div>
+            <div class="block-content">
+              {{ project.description }}
+            </div>
+            <div class="block-content-title">
+              {{ project.tecnologies }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="languages">
+        <div class="section-title">
+          Idiomas
+        </div>
+        <div class="section-content section-flex">
+          {% for language in site.data.resume_en.languages %}
+          <div class="block block-square">
+            <div class="block-title">
+              {{ language.name }}
+            </div>
+            <div class="block-content">
+              {{ language.proficiency }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="references">
+        <div class="section-title">
+          Referencias
+        </div>
+         <div class="section-content">
+          {% for reference in site.data.resume_en.references %}
+          <div class="block">
+            <div class="block-title">
+              {{ reference.name }}
+            </div>
+            <div class="block-subtitle">
+              {{ reference.title }} | {{ reference.company }}
+            </div>
+            <div class="block-content">
+              <i class="fa {{ reference.icon }} aria-hidden="true></i> {{ reference.text }}
+            </div>
+            <div class="block-comment">
+              {{ reference.comment }}
+            </div>
+          </div>
+          {% endfor %}
+          </div>
+      <section>
+
+    </div>
+    <footer>
+      Made with <i class="fa fa-heart aria-hidden="true></i> by <a href="https://github.com/crispgm/resume">David Zhang</a> <span class="print">( <a href="javascript:window.print()">PDF</a> )</span>
+    </footer>
+  </body>
+</html>
